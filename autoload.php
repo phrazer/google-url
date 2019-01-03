@@ -8,7 +8,8 @@ class GoogleUrlAutoLoader {
         if($parts[0]==="GoogleUrl"){
             
             $full = __DIR__ . "/lib/" . implode("/", $parts) . ".php";
-            
+            // example luka...
+            // another one...
             
             if(file_exists($full)){
                 require_once $full;
